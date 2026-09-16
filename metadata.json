@@ -1,0 +1,6 @@
+{
+  "name": "Kodein",
+  "description": "Ruang kerja cerdas untuk mewujudkan ide bareng Alto dengan tema gelap, aksen amber & hijau, riwayat percakapan, live code preview, dan analisis lampiran gambar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

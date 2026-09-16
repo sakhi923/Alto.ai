@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #12141a;
+  --ink-2: #1b1e26;
+  --ink-3: #242832;
+  --paper: #f2efe6;
+  --paper-dim: #8d897f;
+  --amber: #ffb63d;
+  --green: #8ef5a0;
+  --line: #33374280;
+}
+
+@layer base {
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--ink);
+    color: var(--paper);
+  }
+  
+  h1, h2, h3, h4, .font-heading, .display {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom sleek scrollbars matching Kodein dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #242832;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333742;
+}
+
